@@ -1,0 +1,72 @@
+body {
+    background-image: url(Img/porto-portugal-27-september-2018-people-enter-into-train-in-trainstation-on-summer-day-portugal-RB12W4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: rgb(255, 175, 55);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: darkred;
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background-color: darkred;
+}
+#increment-btn:hover {
+    border: .5px solid darkblue;
+    opacity: 95%;
+    background-color: brown;
+}
+
+#save-btn {
+    background-color: darkgreen;
+}
+#save-btn:hover {
+    border: 1px solid darkcyan;
+    opacity: 98%;
+    background-color: rgb(18, 165, 116);
+}
+#save-el{
+    border: 1px solid black;
+    background: rgb(233, 202, 233);
+    max-width: 50%;
+    min-width: 25%;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
